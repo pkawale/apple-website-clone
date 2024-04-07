@@ -11,9 +11,9 @@ const Exploring = () => {
         gsap.to('.link', { opacity: 1, y: 0, duration: 1, stagger: 0.25 })
     }, []);
   return (
-      <section className="w-screen overflow-hidden h-full common-padding bg-zinc">
+      <section className="w-screen overflow-hidden h-screen common-padding bg-zinc">
           <div className="screen-max-width">
-              <div className="mb-12 w-full md: flex items-end justify-between">
+              <div className="mb-12 w-full md:flex items-end justify-between">
                   <h1 id="title" className="section-heading">Keep exploring iPhone.</h1>
 
                   <div className="flex flex-wrap items-end gap-5 ">
@@ -23,7 +23,7 @@ const Exploring = () => {
                       </p>
                   </div>
               </div>
-              <div className="w-screen flex overflow-hidden h-full commong-padding bg-black rounded-lg justify-center">
+              <div className="w-screen flex overflow-hidden h-full common-padding bg-black rounded-lg justify-center">
                   <div className="flex flex-col flex-wrap items-center">
                       <img src={iphonepro} alt="iphone15pro" className="w-[40%]" />
                       
