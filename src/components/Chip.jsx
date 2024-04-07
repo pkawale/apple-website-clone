@@ -20,8 +20,7 @@ const Chip = () => {
             opacity: 1,
             y: 0,
             duration: 1,
-            ease: 'power2.inOut',
-            stagger: 1
+            ease: 'power2.inOut'
         })
     })
   return (
