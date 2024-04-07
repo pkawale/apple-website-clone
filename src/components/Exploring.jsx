@@ -71,9 +71,9 @@ const Exploring = () => {
                           ))}
                       </ul>
                       <h1 className="text-3xl font-semibold text-center">iPhone 15</h1>
-                      <h2 className="text-lg font-semibold text-center lg:mt-2.5 mt-10">From $799 or $33.29/mo. for 24 mo.</h2>
+                      <h2 className="text-lg font-semibold text-center lg:mt-2.5 mt-12">From $799 or $33.29/mo. for 24 mo.</h2>
 
-                      <div className="flex flex-center w-full justify-between gap-12 mt-10 mb-12">
+                      <div className="flex flex-center w-full justify-between gap-10 mt-12 lg:mt-10 mb-12">
                           <button className="px-3 lg:px-5 py-1.5 rounded-3xl bg-blue my-2 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue}">
                               Learn more
                           </button>
@@ -83,7 +83,7 @@ const Exploring = () => {
                           </button>
                       </div>
 
-                      <div className="bg-neutral-700 my-1 sm:my-0.5 h-[1px] w-full" />
+                      <div className="bg-neutral-700 my-0.35 lg:my-0.5 h-[1px] w-full" />
                         
                       <img src={iphoneprocessor} alt="processor" className="ml-2 mt-2" />
                       <h1 className="text-3xl font-semibold text-center mt-5">A16 Bionic chip with 5-core GPU</h1>
