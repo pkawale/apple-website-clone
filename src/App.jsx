@@ -7,6 +7,7 @@ import * as Sentry from '@sentry/react';
 import Features from "./components/Features";
 import Chip from "./components/Chip";
 import Footer from "./components/Footer";
+import Exploring from "./components/Exploring";
 const App = () => {
   return (
     <main className="bg-black overflow-y-auto">
@@ -16,6 +17,7 @@ const App = () => {
       <Model />
       <Features />
       <Chip />
+      <Exploring />
       <Footer />
     </main>
 

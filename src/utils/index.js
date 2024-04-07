@@ -29,6 +29,17 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
+import iphone15pro from "/assets/images/iphone15pro.jpg";
+import iphone15 from "/assets/images/iphone15.jpg";
+
+import iphone15proprocessor from "/assets/images/iphone15proProcessor.png";
+import iphone15processor from "/assets/images/iphone15Processor.png";
+
+import iphone15procamera from "/assets/images/cameraiphonepro.png";
+import iphone15camera from "/assets/images/cameraiphone.png";
+
+import battery from "/assets/images/battery.png";
+
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -55,3 +66,14 @@ export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
 export const frameImg = frame;
+
+export const iphonepro = iphone15pro;
+export const iphone = iphone15;
+
+export const iphoneproprocessor = iphone15proprocessor;
+export const iphoneprocessor = iphone15processor;
+
+export const iphoneprocamera = iphone15procamera;
+export const iphonecamera = iphone15camera;
+
+export const batteryImg = battery;
