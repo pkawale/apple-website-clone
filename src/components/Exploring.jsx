@@ -23,8 +23,8 @@ const Exploring = () => {
                       </p>
                   </div>
               </div>
-              <div className="w-full flex overflow-hidden h-full common-padding bg-black rounded-lg justify-center">
-                  <div className="flex flex-col flex-wrap items-center">
+              <div className="w-full flex overflow-hidden h-full common-padding bg-black rounded-lg justify-center gap-5">
+                  <div className="flex flex-col flex-wrap items-center gap-5">
                       <img src={iphonepro} alt="iphone15pro" className="w-[40%]" />
                       
                       <ul className="flex items-center justify-center px-4 py-4 rounded-full bg-black">
@@ -35,9 +35,9 @@ const Exploring = () => {
                           ))}
                       </ul>
                       <h1 className="text-3xl font-semibold text-center">iPhone 15 Pro</h1>
-                      <h2 className="text-lg font-semibold text-center mt-5">From $999 or $41.62/mo. for 24 mo.</h2>
+                      <h2 className="text-lg font-semibold text-center mt-5 ">From $999 or $41.62/mo. for 24 mo.</h2>
 
-                      <div className="flex flex-center w-full justify-between gap-12 mt-14 mb-12">
+                      <div className="flex flex-center w-full justify-between gap-10 mt-14 mb-12">
                           <p className="text-gray">Currently Viewing</p>
                           <button className="text-blue hover:underline cursor-pointer flex items-center text-xl">
                               Buy
@@ -45,7 +45,7 @@ const Exploring = () => {
                           </button>
                       </div>
                                 
-                      <div className="bg-neutral-700 my-3.5 h-[1px] w-full" />
+                      <div className="bg-neutral-700 my-3.5 sm:my-0.5 h-[1px] w-full" />
 
                       <img src={iphoneproprocessor} alt="processor" className="ml-2" />
                       <h1 className="text-3xl font-semibold text-center mt-5">A17 Pro chip with 6-core GPU</h1>
@@ -60,10 +60,10 @@ const Exploring = () => {
                       <h1 className="text-3xl font-semibold text-center mt-5 mb-20">Up to 29 hours video playback</h1>
                   </div>
 
-                  <div className="flex flex-col flex-wrap items-center">
+                  <div className="flex flex-col flex-wrap items-center gap-5">
                       <img src={iphone} alt="iphone15pro" className="w-[40%]" />
                       
-                      <ul className="flex items-center justify-center px-4 py-4 rounded-full bg-black">
+                      <ul className="flex items-center justify-center px-4 py-4 rounded-full bg-black ">
                           {models.map((item, i) => (
                             <li key={i} className="w-4 h-4 rounded-full mx-1 cursor-pointer"
                                 style={{ backgroundColor: item.color[0] }}
@@ -71,10 +71,10 @@ const Exploring = () => {
                           ))}
                       </ul>
                       <h1 className="text-3xl font-semibold text-center">iPhone 15</h1>
-                      <h2 className="text-lg font-semibold text-center mt-5">From $799 or $33.29/mo. for 24 mo.</h2>
+                      <h2 className="text-lg font-semibold text-center lg:mt-2.5 mt-10">From $799 or $33.29/mo. for 24 mo.</h2>
 
                       <div className="flex flex-center w-full justify-between gap-12 mt-10 mb-12">
-                          <button className="px-5 py-1.5 rounded-3xl bg-blue my-2 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue}">
+                          <button className="px-3 lg:px-5 py-1.5 rounded-3xl bg-blue my-2 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue}">
                               Learn more
                           </button>
                           <button className="text-blue hover:underline cursor-pointer flex items-center text-xl">
@@ -83,7 +83,7 @@ const Exploring = () => {
                           </button>
                       </div>
 
-                      <div className="bg-neutral-700 my-1 h-[1px] w-full" />
+                      <div className="bg-neutral-700 my-1 sm:my-0.5 h-[1px] w-full" />
                         
                       <img src={iphoneprocessor} alt="processor" className="ml-2 mt-2" />
                       <h1 className="text-3xl font-semibold text-center mt-5">A16 Bionic chip with 5-core GPU</h1>
@@ -94,7 +94,7 @@ const Exploring = () => {
                       <p className="text-white text-xs text-center">2x Telephoto</p>
                       <p className="text-white text-xs text-center">Ultra Wide camera</p>
 
-                      <img src={batteryImg} alt="battery" className="mt-10" />
+                      <img src={batteryImg} alt="battery" className="lg:mt-8 sm:mt-5" />
                       <h1 className="text-3xl font-semibold text-center mt-5">Up to 26 hours video playback</h1>
                   </div>
               </div>
