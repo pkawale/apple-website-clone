@@ -5,6 +5,7 @@ import Model from "./components/Model";
 
 import Features from "./components/Features";
 import Chip from "./components/Chip";
+import Shop from "./components/Shop";
 import Footer from "./components/Footer";
 import Exploring from "./components/Exploring";
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Model />
       <Features />
       <Chip />
+      <Shop />
       <Exploring />
       <Footer />
     </main>

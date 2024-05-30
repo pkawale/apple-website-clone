@@ -13,7 +13,7 @@ const Exploring = () => {
   return (
       <section className="w-full overflow-hidden h-full common-padding bg-zinc">
           <div className="screen-max-width">
-              <div className="mb-12 w-full md:flex items-end justify-between">
+              <div className="flex mb-12 w-full md:flex items-end justify-between">
                   <h1 id="title" className="section-heading">Keep exploring iPhone.</h1>
 
                   <div className="flex flex-wrap items-end gap-5 ">
@@ -86,7 +86,7 @@ const Exploring = () => {
                       <div className="bg-neutral-700 my-0.35 lg:my-0.5 h-[1px] w-full" />
                         
                       <img src={iphoneprocessor} alt="processor" className="ml-2 mt-2" />
-                      <h1 className="text-3xl font-semibold text-center mt-5">A16 Bionic chip with 5-core GPU</h1>
+                      <h1 className="text-3xl font-semibold text-center mt-4">A16 Bionic chip with 5-core GPU</h1>
 
                       <img src={iphonecamera} alt="camera" className="mt-10" />
                       <h1 className="text-3xl font-semibold text-center mt-5">Advanced dual-camera system</h1>

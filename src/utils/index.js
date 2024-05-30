@@ -40,6 +40,15 @@ import iphone15camera from "/assets/images/cameraiphone.png";
 
 import battery from "/assets/images/battery.png";
 
+import tradein from "/assets/images/tradein.png";
+import interestfree from "/assets/images/iconInterestFree.png";
+import carrierdeals from "/assets/images/carrierDeals.png";
+import delivery from "/assets/images/delivery.png";
+import specialist from "/assets/images/specialistTalk.png";
+import learniphone from "/assets/images/learniPhone.png";
+import exploreshop from "/assets/images/exploreShop.png";
+import shopoptions from "/assets/images/shop_options.svg";
+
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -77,3 +86,13 @@ export const iphoneprocamera = iphone15procamera;
 export const iphonecamera = iphone15camera;
 
 export const batteryImg = battery;
+
+export const tradeIn = tradein;
+export const cardicon = interestfree;
+export const carrier = carrierdeals;
+export const deli = delivery;
+export const specialistTalk = specialist;
+export const multiplepeopleicon = learniphone;
+export const exploreShop = exploreshop;
+
+export const shopOptions = shopoptions;

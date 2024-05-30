@@ -1,10 +1,17 @@
 import {
   blackImg,
   blueImg,
+  cardicon,
+  carrier,
+  deli,
+  exploreShop,
   highlightFirstVideo,
   highlightFourthVideo,
   highlightSecondVideo,
   highlightThirdVideo,
+  multiplepeopleicon,
+  specialistTalk,
+  tradeIn,
   whiteImg,
   yellowImg,
 } from "../utils";
@@ -85,3 +92,49 @@ export const footerLinks = [
   "Legal",
   "Site Map",
 ];
+
+
+export const shopOptions = [
+  {
+    id: 1,
+    imgSrc: tradeIn,
+    title: "Don't miss out on extra trade-in credit.",
+    subtext: "Get $200–$650 in credit toward iPhone 15 Pro when you trade in iPhone 11 or higher. Offer ends June 3."
+  },
+  {
+    id: 2,
+    imgSrc: cardicon,
+    title: "Pay over time, interest‑free.",
+    subtext: "When you choose to check out with Apple Card Monthly Installments."
+  },
+  {
+    id: 3,
+    imgSrc: carrier,
+    title: "iPhone carrier deals.\nRight here at Apple.\nFor as low as $0.",
+    subtext: "Includes trade‑in and carrier credits. AT&T: up to $1000. T‑Mobile: up to $800. Verizon: up to $830."
+  },
+  {
+    id: 4,
+    imgSrc: deli,
+    title: "Get flexible delivery and easy pickup.",
+    subtext: "Choose two‑hour delivery from an Apple Store, free delivery, or easy pickup options."
+  },
+  {
+    id: 5,
+    imgSrc: specialistTalk,
+    title: "Shop live with a Specialist.",
+    subtext: "Let us guide you live over video and answer all your questions."
+  },
+  {
+    id: 6,
+    imgSrc: multiplepeopleicon,
+    title: "Get to know your iPhone.",
+    subtext: "Learn how to get the most out of your new iPhone with a free one‑on‑one Personal Session."
+  },
+  {
+    id: 7,
+    imgSrc: exploreShop,
+    title: "Explore a shopping experience designed around you.",
+    subtext: "When you shop in the Apple Store app."
+  },
+]
